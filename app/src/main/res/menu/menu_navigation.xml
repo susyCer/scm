@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
+        android:id= "@+id/telemtriaItem"
         android:icon ="@drawable/ic_bubble_chart"
-        android:title= "@string/telemetria"
+        android:title="Telemetria"
         />
 
      <item
+         android:id= "@+id/electrodosItem"
          android:icon ="@drawable/ic_timeline"
-         android:title= "@string/electrodos"
+         android:title= "Electrodos"
          />
 
      <item
-         android:icon ="@drawable/ic_chart"
-         android:title= "@string/variables"
+         android:id= "@+id/variablesItem"
+         android:icon ="@drawable/ic_lightbulb_outline"
+         android:title= "Variables"
          />
      <item
+         android:id= "@+id/estadosItem"
          android:icon ="@drawable/ic_insert_emoticon"
-         android:title= "@string/estados"
+         android:title= "Estados"
          />
 
 
